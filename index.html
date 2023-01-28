@@ -59,6 +59,103 @@
         <li><a href="wildwest.html" target="_blank">Wild west</a></li>
         <li><a href="neon.html" target="_blank">Neon style</a></li>
     </ol>
+    
+    <form id="my form" action="https://jsonplaceholder.typicode.com/posts" method="POST">
+        <fieldset style="width: 70%;">
+            <legend><b>Забронировать</b> </legend>
+            <label for="80's vibes">
+                <input type="radio" name="rooms" value="80's vibes">80's vibes
+            </label>
+
+            <label for="Star wars">
+                <input type="radio" name="rooms" value="Star wars">Star wars
+            </label>
+
+            <label for="Wild west">
+                <input type="radio" name="rooms" value="Wild west">Wild west
+            </label>
+
+            <label for="Neon style">
+                <input type="radio" name="rooms" value="Neon style">Neon style
+            </label>
+        </fieldset>
+        <fieldset style="width: 70%;">
+            <legend><b>Собери набор развлечений</b> </legend>
+            <fieldset style="width: 70%;">
+                <legend>Приставка</legend>
+                <label for="device">
+                    <input type="radio" name="game device" value="PlayStation">PlayStation
+                </label>
+                <label for="device">
+                    <input type="radio" name="game device" value="Sega Mega Drive">Sega Mega Drive
+                </label>
+                <label for="device">
+                    <input type="radio" name="game device" value="X-box One S">X-box One S
+                </label>
+                <label for="device">
+                    <input type="radio" name="game device" value="Dendy">Dendy
+                </label>
+            </fieldset>
+            <fieldset style="width:70%;">
+                <legend>Настольные игры</legend>
+                <label for="device">
+                    <input type="checkbox" name=" table games" value="Jenga">Jenga
+                </label>
+                <label for="device">
+                    <input type="checkbox" name="table games" value="Monopoly">Monopoly
+                </label>
+                <label for="device">
+                    <input type="checkbox" name="table games" value="Manchkin">Манчкин
+                </label>
+                <label for="device">
+                    <input type="checkbox" name="table games" value="Alias">Alias
+                </label>
+            </fieldset>
+            <fieldset style="width: 70%;">
+                <legend>Дополнительно</legend>
+                <label for="device">
+                    <input type="checkbox" name="additionally" value="Karaoke">Караоке
+                </label>
+                <label for="device">
+                    <input type="checkbox" name="additionally" value="vr"> VR
+                </label>
+            </fieldset>
+        </fieldset>
+        <fieldset style="width: 70%;">
+            <legend> <b>Выбери дату и время</b></legend>
+            <label for="date">Дата*
+                <input type="date" name="date" id="date" required>
+            </label>
+            <label for="time">Время*
+                <input type="time" name="time" id="time" required>
+            </label>
+            <br>
+            <label for="count person">Количество человек*
+                <input type="text" name="person" required>
+            </label>
+            <br>
+            <label for="firtname">Имя*
+                <input type="text" name="firtname" required>
+            </label>
+            <br>
+            <label for="secondname">Фамилия*
+                <input type="text" name="secondname" required>
+            </label>
+            <br>
+            <label for="secondname">Номер телефона*
+                <input type="tel" name="tel" required>
+            </label>
+            <br>
+            <label for="age">
+                <input type="checkbox" name="Age" value="Старше 18 лет" required> Я старше 18 лет
+            </label>
+        </fieldset>
+        <button type="submit">Забронировать</button>
+        <label for="agreement">
+            <input type="checkbox" name="agreement" value="agreement" required> Я даю согласие на обработку данных
+        </label>
+    </form>
+
     <h3>О нас</h3>
     <p>Для наших гостей мы создали <i>концептуально новое игровое пространство виртуальной реальности</i>в центральной части города.</p>
     <p>Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас топовыми игровыми разработками со всего мира.</p>
