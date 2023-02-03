@@ -5,12 +5,15 @@
     font-size: 24px;
     padding: 30px 70px;
     margin-bottom: 20px;
+    list-style: none;
+
 
 }
 
 .faq__list_item:nth-child(2n+2) {
     background-color: #440F51;
     color: #fff;
+
 }
 
 .faq__list_item::after {
@@ -20,13 +23,17 @@
     width: 25px;
     background-image: url('/img/open-purple.svg');
     background-size: contain;
+    position: absolute;
+    left: 1250px;
 }
 
-.faq__list_item:nth-child(2n+2)::before {
+.faq__list_item:nth-child(even)::after {
     content: '';
     display: inline-block;
     height: 25px;
     width: 25px;
-    background-image: url('/img/open-purple.svg');
+    background-image: url('/img/open.svg');
     background-size: contain;
+    position: absolute;
+    left: 1250px;
 }
