@@ -16,8 +16,7 @@
 </head>
 
 <body>
-    <div class="wrapper">
-    <header>
+    <!-- <header class="header">
         <img src="img/logo.jpg" alt="logo">
         <h1>Меню</h1>
         <nav>
@@ -57,20 +56,40 @@
                 <li><img src="img/sony.jpg" alt="PlayStation 5"></li>
                 <p>PlayStation 5</p>
             </ul>
-        </section>
+        </section> -->
+       <!--<img src="img/banner.png" alt="game over"> -->
+       <div class="wrapper">
+       <div class="banner">
+        <img class="banner__man" src="img/man.png" alt="man">
+        <p class="banner__text">Game Over</p>
+       </div>
+
         <section id="rooms">
-            <h3>Наши залы</h3>
-            <ol>
-                <li><a href="neon.html" target="_blank">80's vibes</a></li>
-                <li><a href="starwars.html" target="_blank">Star wars</a></li>
-                <li><a href="wildwest.html" target="_blank">Wild west</a></li>
-                <li><a href="neon.html" target="_blank">Neon style</a></li>
-            </ol>
+            <h3 class="rooms__title">Наши залы</h3>
+            <figure>
+                <img class="rooms__img" src="img/80_vibes.jpg" alt="80_vibes">
+                <p class="rooms__item"><a href="vibes.html" target="_blank">80's vibes</a></p>
+            </figure>
+            <figure>
+                <img class="rooms__img" src="img/Star_wars.jpg" alt="star_wars">
+                <p class="rooms__item"><a href="starwars.html" target="_blank">Star wars</a></p>
+            </figure>
+                 <figure>
+                <img class="rooms__img" src="img/wild_west.jpg" alt="wild_west">
+                <p class="rooms__item"><a href="wildwest.html" target="_blank">Wild west</a></p>
+            </figure>
+
+                   <figure>
+                <img class="rooms__img" src="img/neon_style.jpg" alt="wild_west">
+                <p class="rooms__item"><a href="neon.html" target="_blank">Neon style</a></p>
+            </figure>
+
+          
         </section>
         <section id="booking__form">
+             <h3 class="booking__subtitle"><b>Забронировать</b> </h3>
             <form id="my-form" action="https://jsonplaceholder.typicode.com/posts" method="POST">
                 <fieldset style="width: 50%;">
-                    <legend><b>Забронировать</b> </legend>
                     <label for="80's vibes">
                         <input type="radio" id="80's vibes" name="rooms" value="80's vibes">80's vibes
                     </label>
@@ -165,15 +184,22 @@
             </form>
         </section>
         <section id="about-us">
-            <h3>О нас</h3>
-            <p>Для наших гостей мы создали <i>концептуально новое игровое пространство виртуальной реальности</i>в центральной части города.</p>
-            <p>Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас топовыми игровыми разработками со всего мира.</p>
+            <h3 class="about-us__title">О нас</h3>
+            <p class="about-us__text">Для наших гостей мы создали концептуально новое игровое пространство виртуальной реальности в центральной части города.</p>
+            <p class="about-us__text">Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас топовыми игровыми разработками со всего мира.</p>
             <blockquote>
-                <p><b>GAME OVER</b>- это место не забываемых впечатлений</p><br>
-                <cite>Аркадий Абакшин, создатель игровой территории GAME OVER</cite>
+                <p class="blockquote__text"><span class="blockquote__decor">“ </span> GAME OVER-<br> </p>
+                     <p class="blockquote__text-item">это место не забываемых впечатлений <span class="blockquote__decor">”</span></p><br>
+
+                    <figure class="blockquote__author">
+                         <img src="img/Arcadiy.png" alt="Arcadiy">
+                          <cite>Аркадий Абакшин,<br> создатель игровой <br> территории GAME OVER</cite>       
+                    </figure>
+              
+            
             </blockquote>
         </section>
-        <section id="reviews">
+       <!-- <section id="reviews">
             <h3>Отзывы</h3>
             <figure>
                 <img src="img/boy.jpg" alt="boy" width="150px" height="150px" style="border-radius: 50%; object-fit: cover;">
@@ -192,9 +218,9 @@
                 <p>Крутое оформление комнаты в стиле звездных войн, попала в атмосферу космоса.
                 </p>
             </figure>
-        </section>
+        </section> -->
         <section>
-            <h3>Частые вопросы</h3>
+            <h3 class="faq__title">Частые вопросы</h3>
             <ul>
                 <li class="faq__list_item">Можно ли забронировать комнату онлайн?</li>
                 <li class="faq__list_item">Могут ли мне вернуть деньги за бронь?</li>

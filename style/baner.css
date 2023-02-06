@@ -1,0 +1,25 @@
+.banner__text {
+    font-weight: 900;
+    font-size: 150px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: -0.1em;
+    z-index: -1;
+    text-transform: uppercase;
+    position: relative;
+    top: -800px;
+    margin-top: 146px;
+}
+
+.banner {
+
+    margin-bottom: 100px;
+}
+
+.banner__man {
+    position: relative;
+    left: 580px;
+    top: 207px;
+    width: 675px;
+    height: 762px;
+}

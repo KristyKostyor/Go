@@ -1,0 +1,59 @@
+.about-us__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+
+
+}
+
+.blockquote__text,
+.blockquote__text-item {
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 50px;
+    text-transform: uppercase;
+
+}
+
+.blockquote__text-item {
+    margin-left: 35px;
+}
+
+.about-us__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 40px;
+}
+
+.blockquote__decor {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #6C0287;
+}
+
+form {
+    margin-bottom: 100px;
+}
+
+.blockquote__author {
+    margin-bottom: 102px;
+    position: relative;
+    left: 800px;
+}
+
+.blockquote__author cite {
+    position: relative;
+    top: -57px;
+    left: 86px;
+    font-size: 20px;
+    line-height: 28px;
+}
+
