@@ -11,15 +11,11 @@
     margin-top: 146px;
 }
 
-.banner {
-
-    margin-bottom: 100px;
-}
 
 .banner__man {
     position: relative;
-    left: 580px;
+    left: 490px;
     top: 207px;
-    width: 675px;
+    width: 660px;
     height: 762px;
 }

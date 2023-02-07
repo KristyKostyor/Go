@@ -1,3 +1,8 @@
+.rooms {
+    padding-bottom: 100px;
+
+}
+
 .rooms__title {
     font-style: normal;
     font-weight: 700;
@@ -5,39 +10,65 @@
     line-height: 50px;
     text-align: center;
     text-transform: uppercase;
-    color: #FFFFFF;
     margin-bottom: 60px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .rooms__item {
+
     font-style: normal;
     font-weight: 700;
     font-size: 70px;
     line-height: 80px;
     text-align: center;
     text-transform: uppercase;
-    color: #FFFFFF;
-    position: relative;
-    top: -500px;
+    margin-bottom: 60px;
+
+
 }
 
-.rooms__img {
+.rooms__item_link {
+    position: relative;
+    top:300px;
+}
+
+
+
+
+.rooms__item_vibes {
+
     width: 1180px;
     height: 710px;
+    background-image: url('../img/80_vibes.jpg');
+    background-position: center;
+    background-size: cover;
+
+
+
 }
 
-figure {
-    margin: 0;
-    padding: 0;
+.rooms__item_wars {
+    width: 1180px;
+    height: 710px;
+    background-image: url('../img/Star_wars.jpg');
+    background-position: center;
+    background-size: cover;
+
 }
 
-.booking__subtitle {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 50px;
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 60px;
+
+.rooms__item_west {
+    width: 1180px;
+    height: 710px;
+    background-image: url('../img/wild_west.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.rooms__item_neon {
+    width: 1180px;
+    height: 710px;
+    background-image: url('../img/neon_style.jpg');
+    background-position: center;
+    background-size: cover;
 }

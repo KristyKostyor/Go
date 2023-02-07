@@ -1,3 +1,6 @@
+.about__us {
+    padding-bottom: 102px;
+}
 .about-us__title {
     font-style: normal;
     font-weight: 700;
@@ -39,12 +42,9 @@
     color: #6C0287;
 }
 
-form {
-    margin-bottom: 100px;
-}
 
 .blockquote__author {
-    margin-bottom: 102px;
+    
     position: relative;
     left: 800px;
 }
