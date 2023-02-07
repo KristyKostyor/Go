@@ -1,0 +1,50 @@
+#contacts {
+    margin-top: 100px;
+}
+
+.contacts__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+
+.contacts__icon,
+.contacts__icon-location {
+    width: 26px;
+    height: 28px;
+}
+
+.contacts__text {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin-left: 60px;
+}
+
+.contacts__phone,
+.contacts__mail {
+    margin-left: 26px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.contacts__icon-location {
+    position: relative;
+    top: 50px;
+
+}
+
+
+.contacts__social {
+    margin-top: 40px;
+}
+
+.contacts__social-item {
+    display: inline-block;
+    margin-left: 13px;
+}
