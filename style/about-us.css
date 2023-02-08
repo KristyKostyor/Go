@@ -1,6 +1,7 @@
-.about__us {
+.about-us {
     padding-bottom: 102px;
 }
+
 .about-us__title {
     font-style: normal;
     font-weight: 700;
@@ -13,8 +14,8 @@
 
 }
 
-.blockquote__text,
-.blockquote__text-item {
+.about-us__blockquote__text,
+.about-us__blockquote__text-item {
     font-weight: 400;
     font-size: 44px;
     line-height: 50px;
@@ -22,7 +23,7 @@
 
 }
 
-.blockquote__text-item {
+.about-us__blockquote__text-item {
     margin-left: 35px;
 }
 
@@ -34,7 +35,7 @@
     margin-bottom: 40px;
 }
 
-.blockquote__decor {
+.about-us__blockquote__decor {
     font-weight: 900;
     font-size: 44px;
     line-height: 50px;
@@ -43,17 +44,16 @@
 }
 
 
-.blockquote__author {
-    
+.about-us__blockquote__author {
+
     position: relative;
     left: 800px;
 }
 
-.blockquote__author cite {
+.about-us__blockquote__author cite {
     position: relative;
     top: -57px;
     left: 86px;
     font-size: 20px;
     line-height: 28px;
 }
-

@@ -27,7 +27,7 @@
 
 }
 
-.rooms__item_link {
+.rooms__item__link {
     position: relative;
     top:300px;
 }
