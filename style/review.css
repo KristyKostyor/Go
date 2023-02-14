@@ -1,0 +1,32 @@
+.reviews__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+
+.reviews__img {
+    width: 280px;
+    height: 280px;
+    border-radius: 250px;
+    object-fit: cover;
+    margin-bottom: 89px;
+    float: left;
+    margin-right: 20px;
+
+}
+
+.reviews__block {
+    display: inline-block;
+    vertical-align: middle;
+    vertical-align: top;
+}
+
+ figcaption {
+    margin: 0 auto 5px;
+    text-align: center;
+
+}
