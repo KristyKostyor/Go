@@ -1,4 +1,4 @@
-.banner__text {
+.banner__title {
     font-weight: 900;
     font-size: 150px;
     line-height: 100%;
@@ -11,6 +11,17 @@
     margin-top: 146px;
 }
 
+.banner__text {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 50px;
+    color: #FFFFFF;
+    position: relative;
+    top: -900px;
+    left: 280px;
+   
+
+}
 
 .banner__man {
     position: relative;
