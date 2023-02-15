@@ -1,6 +1,5 @@
 .rooms {
     padding-bottom: 100px;
-
 }
 
 .rooms__title {
@@ -14,7 +13,14 @@
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.rooms__block {
+    display: inline-block;
+    padding: 20px;
+
+}
+
 .rooms__item {
+
 
     font-style: normal;
     font-weight: 700;
@@ -29,16 +35,16 @@
 
 .rooms__item__link {
     position: relative;
-    top:300px;
+    top: 150px;
 }
 
 
 
 
 .rooms__item_vibes {
-
-    width: 1180px;
-    height: 710px;
+    margin-left: 130px;
+    width: 580px;
+    height: 349px;
     background-image: url('../img/80_vibes.jpg');
     background-position: center;
     background-size: cover;
@@ -48,8 +54,9 @@
 }
 
 .rooms__item_wars {
-    width: 1180px;
-    height: 710px;
+
+    width: 580px;
+    height: 349px;
     background-image: url('../img/Star_wars.jpg');
     background-position: center;
     background-size: cover;
@@ -58,16 +65,17 @@
 
 
 .rooms__item_west {
-    width: 1180px;
-    height: 710px;
+    margin-left: 130px;
+    width: 580px;
+    height: 349px;
     background-image: url('../img/wild_west.jpg');
     background-position: center;
     background-size: cover;
 }
 
 .rooms__item_neon {
-    width: 1180px;
-    height: 710px;
+    width: 580px;
+    height: 349px;
     background-image: url('../img/neon_style.jpg');
     background-position: center;
     background-size: cover;

@@ -65,19 +65,31 @@
                 <h1 class="banner__title">Game Over</h1>
                 <p class="banner__text">Новый формат игр и отдыха</p>
             </section>
+</div>
 
             <section class="rooms" id="rooms">
                 <h3 class="rooms__title">Наши залы</h3>
 
-                <ul>
+                <ul >
+                    <div class="rooms__block">
                     <li class="rooms__item rooms__item_vibes"><a class="rooms__item__link" href="vibes.html" target="_blank">80's vibes</a></li>
+                    </div>
+                     <div class="rooms__block">
                     <li class="rooms__item rooms__item_wars"><a class="rooms__item__link" href="starwars.html" target="_blank">Star wars</a></li>
+                    </div>
+                    <div class="rooms__block">
                     <li class="rooms__item rooms__item_west"><a class="rooms__item__link" href="wildwest.html" target="_blank">Wild west</a></li>
+                    </div>
+                         <div class="rooms__block">
                     <li class="rooms__item rooms__item_neon"><a class="rooms__item__link" href="neon.html" target="_blank">Neon style</a></li>
+                    </div>
                 </ul>
-
+               
             </section>
+         
+               
             <section class="booking-form" id="booking__form">
+                 <div class="container">
                 <h3 class="booking-form__subtitle"><b>Забронировать</b> </h3>
                 <form id="my-form" action="https://jsonplaceholder.typicode.com/posts" method="POST">
                     <fieldset>
@@ -173,8 +185,11 @@
                         <input type="checkbox" id="agreement" name="agreement" value="agreement" required> Я даю согласие на обработку данных
                     </label>
                 </form>
+                </div>
             </section>
+        
             <section class="about-us" id="about-us">
+                 <div class="container">
                 <h3 class="about-us__title">О нас</h3>
                 <figcaption class="about-us__info" >
                 <img src="./img/about-us.jpg" class="about-us__img" alt="people">
@@ -189,37 +204,39 @@
                         <img src="img/Arcadiy.png" class="about-us__blockquote__author__img" alt="Arcadiy">
                         <cite>Аркадий Абакшин,<br> создатель игровой <br> территории GAME OVER</cite>
                     </figure>
-
-
                 </blockquote>
+                </div>
             </section>
+            
+           
          <section id="reviews">
+              <div class="container">
             <h3 class="reviews__title">Отзывы</h3>
             <figure class="reviews__block">
                 <img src="img/boy.png" alt="boy" class="reviews__img">
-                <figcaption>Макс Самойлов</figcaption>
-                <p >Отмечали здесь день рождения с компанией друзей, все было очень круто! </p>
-                <p> VR очки - это просто бомба!
+               
+                <p class="reviews__text">Отмечали здесь день рождения с компанией друзей, все было очень круто! </p>
+                <p class="reviews__text"> VR очки - это просто бомба!
                     Никогда я еще не был в таком полном игровом погружении. Сервис на высоте!</p>
+                     <figcaption class="reviews__text reviews__clear">Макс Самойлов</figcaption>
             </figure>
             <figure class="reviews__block">
-                <img src="img/girl-dark.png" alt="boy" class="reviews__img ">
-                <figcaption>Оксана Григорьева</figcaption>
-                <p>Были в комнате Дикий запад, пели в караоке под Шакиру, отличный получился корпоратив!</p>
-                <p> У нас в городе больше нет подобных заведений.</p>
-            </figure>
-            <figure class="reviews__block">
-               
-                <img src="img/boy-glass.png" alt="boy" class="reviews__img">
-                <figcaption>Никита Ященко</figcaption>
-               
+                <img src="img/girl-dark.png" alt="boy" class="reviews__img">
                 
-                <p>Немного подвисала игра в VR очках, а так все норм.</p>
-                <p>Крутое оформление комнаты в стиле звездных войн, попала в атмосферу космоса.
-                </p>
+                <p class="reviews__text">Были в комнате Дикий запад, пели в караоке под Шакиру, отличный получился корпоратив!</p>
+                <p class="reviews__text"> У нас в городе больше нет подобных заведений.</p>
+                <figcaption class="reviews__text reviews__clear">Оксана Григорьева</figcaption>
             </figure>
+            <figure class="reviews__block">
+                <img src="img/boy-glass.png" alt="boy" class="reviews__img">
+                <p class="reviews__text">Немного подвисала игра в VR очках, а так все норм.</p>
+                <p class="reviews__text">Крутое оформление комнаты в стиле звездных войн, попала в атмосферу космоса.</p>
+                 <figcaption class="reviews__text reviews__clear">Никита Ященко</figcaption>
+            </figure>
+            </div>
         </section> 
             <section class="faq">
+                    <div class="container">
                 <h3 class="faq__title">Частые вопросы</h3>
                 <ul>
                     <li class="faq__list__item">Можно ли забронировать комнату онлайн?</li>
@@ -228,9 +245,10 @@
                     <li class="faq__list__item">Как получить VIP карту?</li>
                     <li class="faq__list__item">Какая комната самая популярная?</li>
                 </ul>
+                </div>
             </section>
             <section class="contacts" id="contacts">
-
+ <div class="container">
                 <h3 class="contacts__title">Контакты</h3>
                 <img class="contacts__icon-location" src="img/location.png" alt="location">
                 <p class="contacts__text">г. Москва, <br> Аквамарина, 16</p><br>
@@ -299,8 +317,9 @@
 
                     </div>
                 </div>
+                </div>
             </section>
-        </div>
+     
     </main>
 </body>
 
