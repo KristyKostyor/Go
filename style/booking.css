@@ -1,13 +1,150 @@
 .booking-form {
     padding-bottom: 100px;
+    background-color: #440F51;
+    ;
 }
 
-.booking-form__subtitle {
+.booking-form__title {
+    padding-top: 80px;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 50px;
     text-align: center;
     text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.booking-form__legend {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 24px;
+}
+
+.booking-form__label {
+    font-size: 22px;
+    line-height: 25px;
+
+}
+
+.booking-form__input {
+    width: 27px;
+    height: 27px;
+    margin-right: 12px;
+    vertical-align: middle;
+}
+
+.booking-form__games,
+.booking-form__dating {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.booking-form__subtitle {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.booking-form__wrapper {
+    display: flex;
+    gap: 75px;
     margin-bottom: 60px;
+}
+
+.booking-form__button {
+    width: 250px;
+    height: 55px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    color: #000000;
+
+}
+
+.booking-form__border {
+    border: none;
+    padding-bottom: 40px;
+}
+
+.booking-form__wrapper-device {
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
+}
+
+.booking-form__wrapper-device-time {
+    margin-top: 10px;
+    align-items: flex-end;
+    gap:32px;
+}
+.booking-form__device-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.booking-form__input-time {
+    width: 134px;
+    height: 52px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 28px;
+    color: #211E1E;
+}
+
+.booking-form__input-name {
+    text-align: center;
+    width: 280px;
+    height: 52px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #211E1E;
+}
+
+.booking-form__input-count {
+    width: 300px;
+    height: 52px;
+    text-align: center;
+
+
+}
+
+.booking-form__input-count::placeholder {
+    line-height: 28px;
+    color: #211E1E;
+    font-size: 18px;
+}
+
+.booking-form__dating {
+ 
+    gap: 50px;
+
+}
+
+.booking-form__btn-wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.booking-form__button {
+    width: 300px;
+    height: 60px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #6C0287;
+ 
 }

@@ -62,13 +62,10 @@ iframe {
 }
 
 
-.header,
-#rest {
-    display: none;
-}
+
 
 .container {
-    max-width: 1180px;
+    max-width: 1240px;
     padding: 0 30px;
     margin: 0 auto;
 }

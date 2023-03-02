@@ -1,0 +1,39 @@
+.rest {
+    padding: 25px 0;
+}
+
+.rest__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+
+.rest__list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.rest__img {
+    width: 380px;
+    height: 228px;
+}
+
+.rest__text {
+    position: relative;
+    right: 360px;
+    top: 166px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.rest__text-audio {
+    position: relative;
+    top: -70px;
+    right: -250px;
+}

@@ -1,0 +1,111 @@
+.banner {
+    padding: 25px 0;
+
+}
+
+.banner__content {
+
+    min-height: 823px;
+    position: relative;
+}
+
+.banner__title {
+    font-weight: 900;
+    font-size: 150px;
+    line-height: 100%;
+    font-family: "Arial Black", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: -0.1em;
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+    height: 100%;
+}
+
+.banner__text {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 50px;
+    color: #ffffff;
+    padding-left: 100px;
+}
+
+.banner__content::before {
+    z-index: 1;
+    content: "";
+    position: absolute;
+    display: block;
+    width: 675px;
+    height: 762px;
+    background-image: url('../img/man.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    bottom: 0;
+    left: 500px;
+}
+
+.banner__text-wrapper {
+    display: flex;
+    gap: 40px;
+    align-items: baseline;
+    position: relative;
+    top: -550px;
+    ;
+
+}
+
+.banner__text-violet,
+.banner__text-violet_small {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 141px;
+    color: #CD06FF;
+    text-align: center;
+}
+
+.banner__text-violet_small {
+    font-size: 75px;
+    line-height: 106px;
+    font-variant: all-small-caps;
+}
+
+.banner__text-column_one {
+
+    width: 166px;
+    height: 174px;
+
+}
+
+.banner__text-column_two {
+    width: 166px;
+    height: 174px;
+}
+
+.banner__text_position {
+    font-size: 30px;
+    line-height: 34px;
+    text-align: center;
+}
+
+.banner__button {
+    width: 374px;
+    height: 80px;
+    background: #6C0287;
+    border-radius: 10px;
+    flex: 1;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 150px;
+}
+
+.banner__down-btn{
+    position: relative;
+   top:350px;
+   left:  160px;
+   z-index: 1;
+}

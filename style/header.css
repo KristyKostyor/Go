@@ -1,0 +1,39 @@
+.header__logo {
+    width: 122px;
+    height: 66px;
+}
+.header {
+    padding: 25px 0;
+}
+.header__block {
+    margin-top: 38px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.header__list-item {
+
+    font-size: 22px;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+
+.header__button {
+    width: 280px;
+    height: 55px;
+    color: white;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    border: 3px solid #CD06FF;
+    border-radius: 10px;
+    background-color: #1B1A1B;
+    text-transform: uppercase;
+}
