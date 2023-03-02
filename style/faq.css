@@ -23,35 +23,70 @@
 }
 
 
-.faq__list__item:nth-last-child(1){
+.faq__list__item:nth-last-child(1) {
     margin: 0;
 }
 
 
-.faq__list__item:nth-child(2n+2) {
+.faq__list__item_violet {
     background-color: #440F51;
     color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 30px 70px;
+    margin-bottom: 20px;
+    list-style: none;
 
 }
 
-.faq__list__item::after {
-    content: '';
-    display: inline-block;
+.faq__button {
+    position: relative;
+    top: -10px;
+    float: right;
     height: 46px;
     width: 46px;
-    background-image: url('../img/open.png');
-    background-size: contain;
-    position: absolute;
-    left: 1170px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background-color: transparent;
+    transition: background-color 200ms linear, color 200ms linear;
 }
 
-.faq__list__item:nth-child(even)::after {
-    content: '';
-    display: inline-block;
-    height: 46px;
-    width: 46px;
-    background-image: url('../img/open.svg');
-    background-size: contain;
-    position: absolute;
-    left: 1170px;
+.faq__button::after {
+    content: "+";
+    display: block;
+    font-size: 28px;
+}
+
+.faq__list__item .faq__button {
+    border-color: #6C0287;
+    color: #6C0287;
+}
+
+.faq__list__item_violet .faq__button {
+    border-color: #fff;
+    color: #fff;
+}
+
+.faq__list__item_violet:hover .faq__button {
+    background-color: #fff;
+    color: #6C0287;
+}
+
+.faq__list__item_violet .faq__button:active {
+    background-color: transparent;
+    color: #fff;
+}
+
+.faq__list__item:hover .faq__button {
+    background-color: #6C0287;
+    color: #fff;
+}
+
+.faq__list__item .faq__button:active {
+    background-color: transparent;
+    color: #6C0287;
+}
+
+.faq__button:active:after {
+    content: "―";
 }

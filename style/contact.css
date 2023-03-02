@@ -48,3 +48,14 @@
     display: inline-block;
     margin-left: 13px;
 }
+
+.contacts__social-item:hover,
+.contacts__social-item:focus {
+    background: #EADEED;
+    border-radius: 50%;
+}
+
+.contacts__social-item:active {
+    background: #CD06FF;
+    border-radius: 60%;
+}
