@@ -25,12 +25,23 @@
     margin-left: 60px;
 }
 
+.contacts__text:hover {
+    color: #CD06FF;
+    transition: all 0.4s linear;
+}
+
 .contacts__phone,
 .contacts__mail {
     margin-left: 26px;
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
+}
+
+.contacts__phone:hover,
+.contacts__mail:hover {
+    color: #CD06FF;
+    transition: all 0.4s linear;
 }
 
 .contacts__icon-location {
@@ -41,21 +52,28 @@
 
 
 .contacts__social {
-    margin-top: 40px;
+    display: flex;
+    gap: 27px;
+    padding-top: 35px;
 }
 
-.contacts__social-item {
-    display: inline-block;
-    margin-left: 13px;
+
+path {
+    fill: #FFFFFF;
+    transition: all 0.4s linear;
 }
 
-.contacts__social-item:hover,
-.contacts__social-item:focus {
-    background: #EADEED;
-    border-radius: 50%;
+.icon:hover path,
+.icon:focus path {
+    fill-opacity: 1;
+    fill: #EADEED;
+    stroke-opacity: 0;
 }
 
-.contacts__social-item:active {
-    background: #CD06FF;
-    border-radius: 60%;
+
+
+.icon:active path {
+    fill-opacity: 1;
+    fill: #CD06FF;
+    stroke-opacity: 0;
 }

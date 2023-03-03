@@ -4,7 +4,6 @@
 }
 
 .banner__content {
-
     min-height: 823px;
     position: relative;
 }
@@ -20,6 +19,7 @@
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     z-index: 1;
     height: 100%;
+    margin: 0;
 }
 
 .banner__text {
@@ -51,8 +51,6 @@
     align-items: baseline;
     position: relative;
     top: -550px;
-
-
 }
 
 .banner__text-violet,
@@ -76,7 +74,6 @@
     width: 166px;
     height: 174px;
 
-
 }
 
 .banner__text-column_two {
@@ -89,6 +86,7 @@
     font-size: 30px;
     line-height: 34px;
     text-align: center;
+    margin-bottom: 150px;
 
 }
 
@@ -104,8 +102,6 @@
     text-transform: uppercase;
     color: #FFFFFF;
     border: none;
-    margin-top: 150px;
-
 }
 
 .banner__button:hover {
@@ -129,20 +125,36 @@
     border: none;
 }
 
-.banner__down-btn:hover {
-    border-radius: 50%;
-    background: #FFFFFF;
-    color: #6C0287
+
+.banner__svg {
+    fill: transparent;
+    transition: all 0.4s linear;
 }
 
-.banner__down-btn:active {
-    border-radius: 50%;
-    background: #CD06FF;
-    color: #6C0287
+.banner__svg:hover {
+    fill: white;
+    transition: all 0.4s linear;
+}
+
+.banner__svg:hover rect {
+
+    fill-opacity: 1;
+    fill: #6C0287;
+    stroke-opacity: 0;
+}
+
+.banner__svg:active {
+    fill: #CD06FF;
+    transition: all 0.4s linear;
+}
+
+.banner__svg:active rect {
+    fill: white;
+    stroke-opacity: 0;
+
 }
 
 .banner__down-btn:focus {
-    border-radius: 50%;
-    background:transparent;
+    background: transparent;
     color: #6C0287
 }

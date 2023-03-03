@@ -120,7 +120,8 @@
     text-align: center;
 }
 
-.booking-form__input-name:focus {
+.booking-form__input-name:focus,
+.booking-form__input-count:focus {
     border: 2px solid #CD06FF;
 
 }
@@ -160,6 +161,7 @@
     color: #000000;
     background: #EADEED;
     border: 3px solid #640AA3;
+    transition: 1s;
 }
 
 .booking-form__button:active {
@@ -171,10 +173,24 @@
 
 .booking-form__button:focus {
     background: #FFFFFF;
-    border: 3px solid #6C0287;
+    border-color: 3px solid #6C0287;
     color: #000000;
 }
 
-.booking-form input:focus {
-    border: 2px solid #CD06FF;
+input[type="text"]:focus {
+    outline: none;
+    color: #6C0287;
+    /*for chrome*/
+
+}
+
+input[type="tel"]:focus {
+    outline: none;
+
+
+}
+
+input[type="email"]:focus {
+    outline: none;
+
 }
