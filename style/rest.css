@@ -23,6 +23,11 @@
     height: 228px;
 }
 
+.rest__img:hover {
+    transform: scale(1.1);
+    transition: all 0.4s linear;
+}
+
 .rest__text {
     position: relative;
     right: 360px;

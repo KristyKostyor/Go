@@ -16,8 +16,8 @@
 
 .rooms__block {
     display: flex;
-  
-  gap:20px;
+
+    gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
 
@@ -32,8 +32,6 @@
     line-height: 80px;
     text-align: center;
     text-transform: uppercase;
-   
-
 
 }
 
@@ -46,16 +44,15 @@
 
 
 .rooms__item_vibes {
-    
+
     width: 580px;
     height: 349px;
     background-image: url('../img/80_vibes.jpg');
     background-position: center;
     background-size: cover;
 
-
-
 }
+
 
 .rooms__item_wars {
 
@@ -69,7 +66,7 @@
 
 
 .rooms__item_west {
-   
+
     width: 580px;
     height: 349px;
     background-image: url('../img/wild_west.jpg');
