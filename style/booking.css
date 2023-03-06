@@ -59,7 +59,7 @@
 .booking-form__button {
     width: 250px;
     height: 55px;
-    background: #FFFFFF;
+    background: var(--main-color);
     border-radius: 8px;
     font-weight: 700;
     font-size: 30px;
@@ -146,13 +146,13 @@
 .booking-form__button {
     width: 300px;
     height: 60px;
-    background: #FFFFFF;
+    background: var(--main-color);
     border-radius: 10px;
     font-weight: 700;
     font-size: 22px;
     line-height: 28px;
     text-transform: uppercase;
-    color: #6C0287;
+    color: var(--violet-color);
     border-radius: 8px;
 
 }
@@ -165,21 +165,21 @@
 }
 
 .booking-form__button:active {
-    background: #6C0287;
-    border: 3px solid #FFFFFF;
-    color: #FFFFFF;
+    background: var(--violet-color);
+    border: 3px solid var(--main-color);
+    color: var(--main-color);
 
 }
 
 .booking-form__button:focus {
-    background: #FFFFFF;
-    border-color: 3px solid #6C0287;
+    background: var(--main-color);
+    border-color: 3px solid var(--violet-color);
     color: #000000;
 }
 
 input[type="text"]:focus {
     outline: none;
-    color: #6C0287;
+    color: var(--violet-color);
     /*for chrome*/
 
 }

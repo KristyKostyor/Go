@@ -13,7 +13,7 @@
 }
 
 .faq__list__item {
-    background-color: #fff;
+    background-color: var(--main-color);
     color: #1C1A1A;
     font-weight: 700;
     font-size: 24px;
@@ -30,7 +30,7 @@
 
 .faq__list__item_violet {
     background-color: #440F51;
-    color: #fff;
+    color: var(--main-color);
     font-weight: 700;
     font-size: 24px;
     padding: 30px 70px;
@@ -58,33 +58,33 @@
 }
 
 .faq__list__item .faq__button {
-    border-color: #6C0287;
-    color: #6C0287;
+    border-color: var(--violet-color);
+    color: var(--violet-color);
 }
 
 .faq__list__item_violet .faq__button {
-    border-color: #fff;
-    color: #fff;
+    border-color: var(--main-color);
+    color: var(--main-color);
 }
 
 .faq__list__item_violet:hover .faq__button {
-    background-color: #fff;
-    color: #6C0287;
+    background-color: var(--main-color);
+    color: var(--violet-color);
 }
 
 .faq__list__item_violet .faq__button:active {
     background-color: transparent;
-    color: #fff;
+    color: var(--main-color);
 }
 
 .faq__list__item:hover .faq__button {
-    background-color: #6C0287;
-    color: #fff;
+    background-color: var(--violet-color);
+    color: var(--main-color);
 }
 
 .faq__list__item .faq__button:active {
     background-color: transparent;
-    color: #6C0287;
+    color: var(--violet-color);
 }
 
 .faq__button:active:after {

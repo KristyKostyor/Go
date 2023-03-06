@@ -11,7 +11,7 @@ html {
 
 body {
     background-color: #1B1A1B;
-    color: #FFFFFF;
+    color: var(--main-color,#fff);
     font-family: arial;
     font-weight: 400;
     min-width: 320px;

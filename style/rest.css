@@ -12,15 +12,41 @@
     margin-bottom: 60px;
 }
 
+
+
 .rest__list {
     display: flex;
     gap: 20px;
-    flex-wrap: wrap;
+
+    align-items: flex-start;
+
 }
+
+.rest__flex {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+
+
+
+}
+.rest__item {
+    margin-bottom: 39px;
+}
+.rest__self {
+
+    align-self: flex-end;
+    padding: 20px 0;
+    margin: 40px 0;
+}
+
+
 
 .rest__img {
     width: 380px;
     height: 228px;
+
 }
 
 .rest__img:hover {

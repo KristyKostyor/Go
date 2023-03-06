@@ -59,7 +59,7 @@
 
 
 path {
-    fill: #FFFFFF;
+    fill: var(--main-color);
     transition: all 0.4s linear;
 }
 

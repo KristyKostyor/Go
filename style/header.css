@@ -28,14 +28,14 @@
 }
 
 .header__list-item:hover {
-    color:#CD06FF;
+    color: #CD06FF;
     transition: all 0.4s linear;
 }
 
 .header__button {
     width: 280px;
     height: 55px;
-    color: white;
+    color: var(--main-color);
     font-weight: 700;
     font-size: 22px;
     line-height: 30px;
@@ -46,8 +46,8 @@
 }
 
 .header__button:hover {
-    background: #6C0287;
-    border: 3px solid #6C0287;
+    background: var(--violet-color);
+    border: 3px solid var(--violet-color);
     transition: 2s;
 
 }
@@ -59,6 +59,6 @@
 }
 
 .header__button:focus {
-    background: #6C0287;
+    background: var(--violet-color);
 
 }

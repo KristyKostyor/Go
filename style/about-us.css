@@ -41,7 +41,7 @@
     font-size: 44px;
     line-height: 50px;
     text-transform: uppercase;
-    color: #6C0287;
+    color: var(--violet-color);
 }
 
 

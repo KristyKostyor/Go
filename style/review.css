@@ -14,24 +14,44 @@
 }
 
 .reviews__img {
+
     float: left;
     width: 280px;
     height: 280px;
     border-radius: 250px;
     object-fit: cover;
-
     margin-right: 20px;
 
 }
 
+.reviews__block {
+    position: relative;
+
+}
+
+.reviews__block::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    border-radius: 250px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(196, 196, 196, 0) 0%, rgba(108, 2, 135, 0.5) 100%);
+}
+
+
 .reviews__text {
+    width: 998px;
     font-size: 20px;
     line-height: 28px;
+    padding-top: 50px;
 }
 
 
 .reviews__clear {
-    margin-top: 11px;
+    font-size: 20px;
+    line-height: 28px;
+    padding-top: 11px;
     margin-bottom: 50px;
     margin-left: 60px;
     clear: left;
