@@ -1,0 +1,38 @@
+.west {
+    padding-bottom: 50px;
+}
+
+.west-banner {
+    padding-top: 20px;
+    background-image: url('../img/west_banner.jpg');
+    background-size: cover;
+    height: 750px;
+    overflow: hidden;
+}
+
+.west-banner__text {
+    text-align: center;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 80px;
+    text-transform: uppercase;
+    position: relative;
+    top: 335px;
+}
+
+
+
+.west-banner__descrip-block {
+    display: flex;
+    justify-content: center;
+}
+
+.west-banner__description {
+    padding-top: 100px;
+    width: 1000px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+
+}

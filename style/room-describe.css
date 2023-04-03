@@ -1,0 +1,39 @@
+.room-describe {
+    padding: 50px 0;
+}
+
+.room-describ__title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+}
+
+.room-describe__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.room-describe__img {
+    width: 600px;
+    height: 424px;
+}
+
+.room-describe__text-block {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.room-describe__text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.room-describe__text_pad{
+    padding-bottom: 20px;
+}

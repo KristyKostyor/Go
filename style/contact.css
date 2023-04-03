@@ -1,5 +1,5 @@
 .contacts {
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 .contacts__title {
@@ -76,4 +76,15 @@ path {
     fill-opacity: 1;
     fill: #CD06FF;
     stroke-opacity: 0;
+}
+
+.contacts__block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts__copyright{
+    padding-top: 145px;
+    display: flex;
+    justify-content: space-between;
 }

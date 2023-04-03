@@ -1,0 +1,38 @@
+.neon {
+    padding-bottom: 50px;
+}
+
+.neon-banner {
+    padding-top: 20px;
+    background-image: url('../img/neon__banner.jpg');
+    background-size: cover;
+    height: 750px;
+    overflow: hidden;
+}
+
+.neon-banner__text {
+    text-align: center;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 80px;
+    text-transform: uppercase;
+    position: relative;
+    top: 335px;
+}
+
+
+
+.neon-banner__descrip-block {
+    display: flex;
+    justify-content: center;
+}
+
+.neon-banner__description {
+    padding-top: 100px;
+    width: 1000px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+
+}

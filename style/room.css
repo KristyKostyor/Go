@@ -16,7 +16,6 @@
 
 .rooms__block {
     display: flex;
-
     gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
@@ -24,7 +23,6 @@
 }
 
 .rooms__item {
-
 
     font-style: normal;
     font-weight: 700;
