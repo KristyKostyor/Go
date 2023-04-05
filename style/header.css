@@ -10,9 +10,13 @@
 .header__block {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
 }
 
+.header__disable {
+    display: block;
+}
 
 .header__list {
     display: flex;
@@ -33,6 +37,7 @@
 }
 
 .header__button {
+    display: block;
     width: 280px;
     height: 55px;
     color: var(--main-color);
@@ -66,9 +71,11 @@
 .header__back {
     padding-top: 60px;
 }
+
 .header__back svg {
     margin-right: 10px;
 }
+
 .header__btn-back {
     background-color: var(--black-color);
     color: var(--main-color);
@@ -76,4 +83,76 @@
     font-weight: 700;
     font-size: 22px;
     line-height: 28px;
+}
+
+.menu-line {
+    display: none;
+}
+
+@media all and (max-width:1024px) {
+
+
+    .header__list-item {
+
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .header__list {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .header__logo {
+        width: 87px;
+        height: 55px;
+    }
+
+    .header__button {
+        width: 229px;
+        height: 45px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .header__btn-back {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+}
+
+@media all and (max-width:768px) {
+ 
+
+    .menu-line {
+        display: block;
+    }
+
+    .header__disable {
+        display: none;
+    }
+
+}
+
+@media all and (max-width:400px) {
+  
+
+    .header__button {
+        display: none;
+    }
+
+    .menu-line svg {
+        width: 30px;
+        height: 20px;
+    }
+
+    .header__logo {
+        width: 66px;
+        height: 42px;
+    }
+    .header{
+        padding: 20px 0;
+    }
 }

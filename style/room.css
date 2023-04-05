@@ -79,3 +79,59 @@
     background-position: center;
     background-size: cover;
 }
+
+@media all and (max-width:1024px) {
+    .rooms__title {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 36px;
+    }
+
+    .rooms__item {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .rooms__item_neon,
+    .rooms__item_vibes,
+    .rooms__item_wars,
+    .rooms__item_west {
+        width: 443px;
+        height: 267px;
+    }
+
+    .rooms__item__link {
+        top: 100px;
+    }
+
+}
+
+@media all and (max-width:768px) {
+
+    .rooms__title {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .rooms__item_neon,
+    .rooms__item_vibes,
+    .rooms__item_wars,
+    .rooms__item_west {
+        width: 335px;
+        height: 200px;
+    }
+
+    .rooms {
+        padding-bottom: 60px;
+    }
+
+    .rooms__item {
+        font-size: 40px;
+        line-height: 50px;
+    }
+.rooms__item__link{
+    top: 80px;
+}
+}
+
+@media all and (max-width:400px) {}

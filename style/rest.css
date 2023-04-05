@@ -17,7 +17,6 @@
 .rest__list {
     display: flex;
     gap: 20px;
-
     align-items: flex-start;
 
 }
@@ -31,13 +30,15 @@
 
 
 }
+
 .rest__item {
     margin-bottom: 39px;
 }
+
 .rest__self {
 
     align-self: flex-end;
- 
+
     margin: 60px 0;
 }
 
@@ -67,4 +68,74 @@
     position: relative;
     top: -70px;
     right: -250px;
+}
+
+@media all and (max-width:1024px) {
+    .rest__title {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 36px;
+    }
+
+    .rest__img {
+        width: 287px;
+        height: 172px;
+
+    }
+}
+
+@media all and (max-width:768px) {
+    .rest__title {
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 30px;
+    }
+
+    .rest__list {
+        flex-wrap: wrap;
+        padding-left: 30px;
+
+    }
+
+    .rest__flex {
+        margin: 0;
+    }
+
+    .rest__img {
+        width: 334px;
+        height: 200px;
+    }
+
+    .rest__self {
+        margin: 0;
+    }
+
+    .rest__item {
+        margin-bottom: 0px;
+    }
+
+    .rest__flex {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .rest__self {
+        display: flex;
+        column-gap: 20px;
+    }
+}
+
+@media all and (max-width:400px) {
+
+
+    .rest__title {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .rest__img {
+        width: 135px;
+        height: 75px;
+    }
+
 }

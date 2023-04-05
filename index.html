@@ -18,10 +18,18 @@
 <body>
     <header class="header">
         <div class="container">
+
+          
             <div class="header__block">
+                                        <div class="menu-line">
+                <svg width="54" height="29" viewBox="0 0 54 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="54" height="5" rx="2" fill="#6C0287"/>
+<rect y="12" width="54" height="5" rx="2" fill="#6C0287"/>
+<rect y="24" width="31" height="5" rx="2" fill="#6C0287"/>
+</svg></div>
                 <img class="header__logo" src="img/logo.png" alt="logo">
                 <nav class="header__navigator">
-                    <ul class="header__list">
+                    <ul class="header__list header__disable">
                         <li class="header__list-item">
                             <a href="#rooms">Залы</a>
                         </li>
@@ -119,18 +127,19 @@
             </ul>
         </section>
         <section class="booking-form" id="booking__form">
-            <div class="container">
+          
                 <h3 class="booking-form__title"><b>Забронировать</b> </h3>
+                  <div class="container">
                 <form id="my-form" action="https://jsonplaceholder.typicode.com/posts" method="POST">
                     <h4 class="booking-form__subtitle">Выберите зал</h4>
                     <div class="booking-form__wrapper">
-                        <button class="booking-form__button">80's vibes</button>
-                        <button class="booking-form__button">Star wars</button>
-                        <button class="booking-form__button">Wild west</button>
-                        <button class="booking-form__button">Neon style</button>
+                        <button class="booking-form__btn">80's vibes</button>
+                        <button class="booking-form__btn">Star wars</button>
+                        <button class="booking-form__btn">Wild west</button>
+                        <button class="booking-form__btn">Neon style</button>
                     </div>
 
-                    <fieldset class="booking-form__border">
+                    <fieldset class="booking-form__border booking-form__collect">
                         <h4 class="booking-form__subtitle booking-form__legend">Собери набор развлечений</h4>
                         <div class="booking-form__games">
                             <fieldset class="booking-form__wrapper-device booking-form__device-list">
@@ -180,7 +189,7 @@
                     <fieldset class="booking-form__border">
                         <legend class="booking-form__subtitle">Выбери дату и время</legend>
                         <div class="booking-form__dating">
-                            <fieldset class="booking-form__wrapper-device booking-form__wrapper-device-time ">
+                            <fieldset class="booking-form__wrapper-device booking-form__wrapper-device-time booking-form__device-span">
                                 <label for="date">
                                     <input class="booking-form__input-time" type="date" name="date" id="date" required>
                                 </label>
@@ -188,11 +197,13 @@
                                     <input class="booking-form__input-time" type="time" name="time" id="time" required>
                                 </label>
 
-                                <label for="count person">
+                                <label for="count person" class="booking-form__input-person">
                                     <input class="booking-form__input-count" type="text" id="person" name="person" placeholder="Количество человек" required>
                                 </label>
                             </fieldset>
-                            <fieldset class="booking-form__wrapper-device booking-form__device-list">
+                            
+                        
+                            <fieldset class="booking-form__wrapper-device booking-form__device-list booking-form__device-span_one">
                                 <label for="firstname">Имя
                                     <input class="booking-form__input-name" type="text" id="firstname" name="firstname" required>
                                 </label>
@@ -201,15 +212,19 @@
                                     <input class="booking-form__input-name" type="text" id="lastname" name="lastname" required>
                                 </label>
                             </fieldset>
-                            <fieldset class="booking-form__wrapper-device booking-form__device-list">
+                            <fieldset class="booking-form__wrapper-device booking-form__device-list booking-form__device-span_two">
                                 <label for="secondname">Номер телефона
                                     <input class="booking-form__input-count" type="tel" id="tel" name="tel" inputmode="tel" required>
                                 </label>
                                 <label for="secondname">E-mail
                                     <input class="booking-form__input-count" type="tel" id="email" name="tel" inputmode="tel" required>
                                 </label>
+
                             </fieldset>
-                        </div>
+                         
+                            </div>
+                 
+
                     </fieldset>
                     <div class="booking-form__btn-wrapper">
                         <button class="booking-form__button" type="submit">Забронировать</button>
@@ -217,7 +232,8 @@
 
 
                 </form>
-            </div>
+                </div>
+         
         </section>
 
         <section class="about-us" id="about-us">
@@ -225,12 +241,12 @@
                 <h3 class="about-us__title">О нас</h3>
                 <figcaption class="about-us__info">
                     <img src="./img/about-us.jpg" class="about-us__img" alt="people">
-                    <p class="about-us__text">Для наших гостей мы создали концептуально новое игровое пространство виртуальной реальности в центральной части города.</p>
+                    <p class="about-us__text about-us__text_size ">Для наших гостей мы создали концептуально новое игровое пространство виртуальной реальности в центральной части города.</p>
                     <p class="about-us__text">Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас топовыми игровыми разработками со всего мира.</p>
                 </figcaption>
                 <blockquote>
-                    <p class="about-us__blockquote__text"><span class="about-us__blockquote__decor">“ </span> GAME OVER-<br> </p>
-                    <p class="about-us__blockquote__text-item">это место не забываемых впечатлений <span class="about-us__blockquote__decor">”</span></p><br>
+                    <p class="about-us__blockquote__text"><span class="about-us__blockquote__decor">“ </span> GAME OVER — </p>
+                    <p class="about-us__blockquote__text-item">это место незабываемых впечатлений <span class="about-us__blockquote__decor">”</span></p>
 
                     <figure class="about-us__blockquote__author">
                         <img src="img/Arcadiy.png" class="about-us__blockquote__author__img" alt="Arcadiy">
@@ -243,27 +259,35 @@
 
         <section class="reviews" id="reviews">
             <div class="container">
-                <h3 class="reviews__title">Отзывы</h3>
+                <h3 class="reviews__title">Отзывы посетителей</h3>
                 <figure class="reviews__block">
+                    <div class="reviews__pic-name">
                     <img src="img/boy.png" alt="boy" class="reviews__img">
-
+                       <figcaption class="reviews__clear">Макс Самойлов</figcaption>
+</div>
                     <p class="reviews__text">Отмечали здесь день рождения с компанией друзей, все было очень круто!
                         VR очки - это просто бомба!
                         Никогда я еще не был в таком полном игровом погружении. Сервис на высоте!</p>
-                    <figcaption class="reviews__clear">Макс Самойлов</figcaption>
+                 
                 </figure>
                 <figure class="reviews__block">
+                     <div class="reviews__pic-name">
                     <img src="img/girl-dark.png" alt="boy" class="reviews__img">
+                    <figcaption class="reviews__clear">Оксана Григорьева</figcaption>
+                    </div>
 
                     <p class="reviews__text">Были в комнате Дикий запад, пели в караоке под Шакиру, отличный получился корпоратив!
                         У нас в городе больше нет подобных заведений.</p>
-                    <figcaption class="reviews__clear">Оксана Григорьева</figcaption>
+                    
                 </figure>
                 <figure class="reviews__block">
+                    <div class="reviews__pic-name">
                     <img src="img/boy-glass.png" alt="boy" class="reviews__img">
+                       <figcaption class="reviews__clear">Никита Ященко</figcaption>
+                       </div>
                     <p class="reviews__text">Немного подвисала игра в VR очках, а так все норм.
                         Крутое оформление комнаты в стиле звездных войн, попала в атмосферу космоса.</p>
-                    <figcaption class="reviews__clear">Никита Ященко</figcaption>
+                 
                 </figure>
             </div>
         </section>
@@ -289,10 +313,14 @@
                     <div class="contacts__wrapper">
                         <img class="contacts__icon-location" src="img/location.png" alt="location">
                         <p class="contacts__text">г. Москва, <br> Аквамарина, 16</p><br>
+                        <div class="contacts__phone-wrap">
                         <img class="contacts__icon" src="img/phone.png" alt="phone">
                         <a class="contacts__phone" href="tel:89509302893">8(950)930-28-93</a><br>
+                        </div>
+                        <div class="contacts__phone-wrap">
                         <img class="contacts__icon" src="img/envelope.png" alt="envelope">
                         <a class="contacts__mail" href="mailto:GameOver@gmail.com">GameOver@gmail.com</a><br>
+                        </div>
 
 
 
@@ -354,7 +382,7 @@
                         </div>
                     </div>
                     <div class="contacts__map">
-                        <img src="./img/map.png" alt="map">
+                        <img class="contacts__img" src="./img/map.png" alt="map">
                     </div>
                 </div>
                 <div class="contacts__copyright">
@@ -369,6 +397,7 @@
             </div>
         </section>
     </footer>
+
 
 </body>
 

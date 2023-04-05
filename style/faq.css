@@ -90,3 +90,43 @@
 .faq__button:active:after {
     content: "―";
 }
+
+@media all and (max-width:1024px) {
+    .faq__title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .faq__list__item,
+    .faq__list__item_violet {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .faq {
+        padding-bottom: 70px;
+    }
+}
+
+@media all and (max-width:768px) {
+    .faq__title {}
+}
+
+@media all and (max-width:400px) {
+    .faq__title {
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 15px;
+    }
+
+    .faq__list__item,
+    .faq__list__item_violet {
+        font-size: 12px;
+        line-height: 16px;
+        padding: 20px 20px;
+    }
+    .faq__button{
+        width: 30px;
+        height: 30px;
+    }
+}

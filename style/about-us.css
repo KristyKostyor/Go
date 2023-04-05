@@ -1,4 +1,5 @@
 .about-us {
+    padding-top: 50px;
     padding-bottom: 102px;
 }
 
@@ -16,11 +17,15 @@
 
 .about-us__blockquote__text,
 .about-us__blockquote__text-item {
+
     font-weight: 400;
     font-size: 44px;
     line-height: 50px;
     text-transform: uppercase;
+}
 
+.about-us__blockquote__text-item {
+    margin-bottom: 39px;
 }
 
 .about-us__blockquote__text-item {
@@ -45,12 +50,13 @@
 }
 
 
-.about-us__blockquote__author{
+.about-us__blockquote__author {
     display: flex;
     gap: 30px;
     justify-content: flex-end;
- 
-} 
+
+}
+
 .about-us__img {
     float: left;
     width: 600px;
@@ -64,10 +70,81 @@
     line-height: 28px;
 }
 
-.about-us__blockquote__author__img {
-   
+
+
+
+@media all and (max-width:1024px) {
+
+    .about-us__title {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 26px;
+    }
+
+    .about-us__text {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .about-us__blockquote__text,
+    .about-us__blockquote__text-item {
+        font-size: 29px;
+        line-height: 35px;
+    }
+
+    .about-us__blockquote__text-item {
+        margin-bottom: 13px;
+    }
+
+    .about-us__img {
+        width: 420px;
+        margin-right: 40px;
+    }
+
+    .about-us__blockquote__author cite {
+        float: right;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .about-us__blockquote__author {
+        justify-content: flex-start;
+    }
+
+    .about-us {
+        padding-bottom: 70px;
+    }
 }
 
-.about-us {
-    padding: 50px 0;
+@media all and (max-width:768px) {
+    .about-us__title {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .about-us__text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .about-us__text_size {
+        padding-top: 70px;
+    }
+
+    .about-us__img {
+        width: 382px;
+        margin-right: 28px;
+    }
+
+    .about-us__text:last-child {
+        margin-bottom: 90px;
+    }
+
+    .about-us__blockquote__author {
+        justify-content: flex-end;
+    }
+}
+
+@media all and (max-width:400px) {
+    
 }
