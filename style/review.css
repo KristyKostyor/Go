@@ -129,7 +129,7 @@
     }
 }
 
-@media all and (max-width:400px) {
+@media all and (max-width:420px) {
     .reviews__title {
         font-size: 14px;
         line-height: 16px;
@@ -176,7 +176,7 @@
    
 }
 
-@media all and (max-width:400px) {
+@media all and (max-width:420px) {
 
 
     .container {

@@ -112,7 +112,7 @@
     .faq__title {}
 }
 
-@media all and (max-width:400px) {
+@media all and (max-width:420px) {
     .faq__title {
         font-size: 14px;
         line-height: 18px;
