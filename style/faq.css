@@ -129,4 +129,7 @@
         width: 30px;
         height: 30px;
     }
+    .faq__button::after{
+        font-size:  26px;
+    }
 }
