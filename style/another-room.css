@@ -70,3 +70,102 @@
     background-position: center;
     background-size: cover;
 }
+
+
+@media all and (max-width:1024px) {
+    .another-room {
+        padding: 35px 0;
+    }
+
+    .another-room__title {
+        padding-bottom: 36px;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .another-room__item_star,
+    .another-room__item_west,
+    .another-room__item_neon,
+    .another-room__item_vibes {
+        width: 288px;
+        height: 172px;
+    }
+
+    .another-room__item {
+        font-size: 30px;
+        line-height: 120%;
+    }
+
+    .another-room__item__link {
+        top: 65px;
+    }
+}
+
+@media all and (max-width:768px) {
+
+    .another-room {
+        padding: 30px 0;
+    }
+
+    .another-room__title {
+        padding-bottom: 30px;
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .another-room__item_star,
+    .another-room__item_west,
+    .another-room__item_neon,
+    .another-room__item_vibes {
+        width: 224px;
+        height: 134px;
+    }
+
+    .another-room__item {
+        font-size: 20px;
+        line-height: 120%;
+    }
+
+    .another-room__item__link {
+        top: 55px;
+    }
+
+    .another-room__block {
+        gap: 8px;
+    }
+}
+
+@media all and (max-width:420px) {
+    .another-room {
+        padding: 15px 0;
+    }
+
+    .another-room__title {
+        padding-bottom: 15px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .another-room__item_star,
+    .another-room__item_west,
+    .another-room__item_neon,
+    .another-room__item_vibes {
+        width: 280px;
+        height: 140px;
+    }
+
+    .another-room__item {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .another-room__item__link {
+        top: 55px;
+    }
+
+    .another-room__block {
+        flex-direction: column;
+        gap: 5px;
+        align-items: center;
+    }
+}

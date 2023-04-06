@@ -28,7 +28,7 @@
 }
 
 
-.faq__list__item_violet {
+.faq__list__item-violet {
     background-color: #440F51;
     color: var(--main-color);
     font-weight: 700;
@@ -62,17 +62,17 @@
     color: var(--violet-color);
 }
 
-.faq__list__item_violet .faq__button {
+.faq__list__item-violet .faq__button {
     border-color: var(--main-color);
     color: var(--main-color);
 }
 
-.faq__list__item_violet:hover .faq__button {
+.faq__list__item-violet:hover .faq__button {
     background-color: var(--main-color);
     color: var(--violet-color);
 }
 
-.faq__list__item_violet .faq__button:active {
+.faq__list__item-violet .faq__button:active {
     background-color: transparent;
     color: var(--main-color);
 }
@@ -98,7 +98,7 @@
     }
 
     .faq__list__item,
-    .faq__list__item_violet {
+    .faq__list__item-violet {
         font-size: 20px;
         line-height: 24px;
     }
@@ -120,7 +120,7 @@
     }
 
     .faq__list__item,
-    .faq__list__item_violet {
+    .faq__list__item-violet {
         font-size: 12px;
         line-height: 16px;
         padding: 20px 20px;

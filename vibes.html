@@ -15,15 +15,20 @@
 </head>
 
 <body>
-
     <header class="header">
         <div class="container">
             <div class="header__block">
-                <a href="index.html"><img class="header__logo" src="img/logo.png" alt="logo"></a>
-                    <nav class="header__navigator">
-                    <ul class="header__list">
+                <div class="menu-line">
+                    <svg width="54" height="29" viewBox="0 0 54 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="54" height="5" rx="2" fill="#6C0287" />
+                        <rect y="12" width="54" height="5" rx="2" fill="#6C0287" />
+                        <rect y="24" width="31" height="5" rx="2" fill="#6C0287" />
+                    </svg></div>
+                <img class="header__logo" src="img/logo.png" alt="logo">
+                <nav class="header__navigator">
+                    <ul class="header__list header__disable">
                         <li class="header__list-item">
-                            <a href="#another-room">Залы</a>
+                            <a href="index.html#rooms">Залы</a>
                         </li>
                         <li class="header__list-item">
                             <a href="index.html#about-us">О нас</a>
@@ -50,34 +55,34 @@
                     </a>
                 </button>
             </div>
-        </div>
+            </div>
     </header>
     <main>
         <section class="vibes">
             <div class="vibes-banner">
-            <p class="vibes-banner__text">80's vibes</p>
+                <p class="vibes-banner__text">80's vibes</p>
             </div>
-            <div class="vibes-banner__descrip-block">
-            <p class="vibes-banner__description">Вы окунетесь в незабываемую атмосферу Америки 80-х годов, стилевая музыка, кассеты и магнитофоны.
-                Одевайтесь ярко, берите с собой хорошее настроение и устройте большую вечеринку!</p>
-                </div>
+            <div class="vibes__descrip-block">
+                <p class="vibes__description">Вы окунетесь в незабываемую атмосферу Америки 80-х годов, стилевая музыка, кассеты и магнитофоны.
+                    Одевайтесь ярко, берите с собой хорошее настроение и устройте большую вечеринку!</p>
+            </div>
         </section>
         <section class="room-describe">
             <div class="container">
-            <h3 class="room-describ__title">Что есть в комнате?</h3>
-            <div class="room-describe__wrapper">
-                <img class="room-describe__img" src="./img/vibes-describe.jpg" alt="room-describe">
-                <div class="room-describe__text-block">
-                <p class="room-describe__text room-describe__text_pad">В комнате 80-х есть игровые автоматы, магнитофоны, виниловые пластинки и мини кинотеатр.</p>
-                <p class="room-describe__text">Также вы можете выбрать игровую приставку, настольные игры, VR и караоке.</p>
-                </div>
+                <h3 class="room-describ__title">Что есть в комнате?</h3>
+                <div class="room-describe__wrapper">
+                    <img class="room-describe__img" src="./img/vibes-describe.jpg" alt="room-describe">
+                    <div class="room-describe__text-block">
+                        <p class="room-describe__text room-describe__text_pad">В комнате 80-х есть игровые автоматы, магнитофоны, виниловые пластинки и мини кинотеатр.</p>
+                        <p class="room-describe__text">Также вы можете выбрать игровую приставку, настольные игры, VR и караоке.</p>
+                    </div>
 
-            </div>
+                </div>
             </div>
         </section>
         <section id="another-room" class="another-room">
             <h3 class="another-room__title">Другие комнаты</h3>
-                <ul class="another-room__block">
+            <ul class="another-room__block">
                 <li class="another-room__item another-room__item_star"><a class="another-room__item__link" href="starwars.html" target="_blank">Star wars</a></li>
                 <li class="another-room__item another-room__item_west"><a class="another-room__item__link" href="wildwest.html" target="_blank">Wild west</a></li>
                 <li class="another-room__item another-room__item_neon"><a class="another-room__item__link" href="neon.html" target="_blank">Neon style</a></li>
@@ -85,7 +90,7 @@
             </ul>
         </section>
     </main>
-     <footer>
+      <footer>
         <section class="contacts" id="contacts">
             <div class="container">
                 <h3 class="contacts__title">Контакты</h3>
@@ -94,10 +99,14 @@
                     <div class="contacts__wrapper">
                         <img class="contacts__icon-location" src="img/location.png" alt="location">
                         <p class="contacts__text">г. Москва, <br> Аквамарина, 16</p><br>
+                        <div class="contacts__phone-wrap">
                         <img class="contacts__icon" src="img/phone.png" alt="phone">
                         <a class="contacts__phone" href="tel:89509302893">8(950)930-28-93</a><br>
+                        </div>
+                        <div class="contacts__phone-wrap">
                         <img class="contacts__icon" src="img/envelope.png" alt="envelope">
                         <a class="contacts__mail" href="mailto:GameOver@gmail.com">GameOver@gmail.com</a><br>
+                        </div>
 
 
 
@@ -138,6 +147,7 @@
                                         </defs>
                                     </svg>
                                 </a>
+
                             </div>
                             <div class="contacts__social-item">
                                 <a href="#">
@@ -158,7 +168,7 @@
                         </div>
                     </div>
                     <div class="contacts__map">
-                        <img src="./img/map.png" alt="map">
+                        <img class="contacts__img" src="./img/map.png" alt="map">
                     </div>
                 </div>
                 <div class="contacts__copyright">
@@ -174,4 +184,5 @@
         </section>
     </footer>
 </body>
+
 </html>

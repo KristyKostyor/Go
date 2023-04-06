@@ -1,6 +1,7 @@
-.vibes{
+.vibes {
     padding-bottom: 50px;
 }
+
 .vibes-banner {
     padding-top: 20px;
     background-image: url('../img/automatic.jpg');
@@ -21,11 +22,12 @@
 
 
 
-.vibes-banner__descrip-block{
-display: flex;
-justify-content: center;
+.vibes__descrip-block {
+    display: flex;
+    justify-content: center;
 }
-.vibes-banner__description {
+
+.vibes__description {
     padding-top: 100px;
     width: 1000px;
     font-weight: 700;
@@ -33,4 +35,73 @@ justify-content: center;
     line-height: 150%;
     text-align: center;
 
+}
+
+@media all and (max-width:1024px) {
+    .vibes-banner {
+        height: 534px;
+    }
+
+    .vibes-banner__text {
+        font-size: 90px;
+        line-height: 80px;
+        top: 200px;
+    }
+
+    .vibes__description {
+        padding-top: 70px;
+        width: 800px;
+        font-size: 20px;
+        line-height: 150%;
+    }
+
+    .vibes {
+        padding-bottom: 35px;
+    }
+}
+
+
+@media all and (max-width:768px) {
+    .vibes {
+        padding-bottom: 30px;
+    }
+
+    .vibes-banner {
+        height: 402px;
+    }
+
+    .vibes-banner__text {
+        font-size: 60px;
+        line-height: 120%;
+        top: 140px;
+    }
+
+    .vibes__description {
+        padding-top: 60px;
+        width: 688px;
+        font-size: 16px;
+        line-height: 150%;
+    }
+}
+
+@media all and (max-width:420px) {
+    .vibes{
+        padding-bottom: 15px;
+    }
+    .vibes-banner {
+        height: 168px;
+    }
+
+    .vibes-banner__text {
+        font-size: 30px;
+        line-height: 120%;
+        top: 65px;
+    }
+
+    .vibes__description {
+        width: 280px;
+        padding-top: 30px;
+        font-size: 16px;
+        line-height: 150%;
+    }
 }

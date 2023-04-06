@@ -22,12 +22,12 @@
 
 
 
-.neon-banner__descrip-block {
+.neon__descrip-block {
     display: flex;
     justify-content: center;
 }
 
-.neon-banner__description {
+.neon__description {
     padding-top: 100px;
     width: 1000px;
     font-weight: 700;
@@ -35,4 +35,75 @@
     line-height: 150%;
     text-align: center;
 
+}
+
+
+@media all and (max-width:1024px) {
+    .neon-banner {
+        height: 534px;
+    }
+
+    .neon-banner__text {
+        font-size: 90px;
+        line-height: 80px;
+        top: 200px;
+    }
+
+    .neon__description {
+        padding-top: 70px;
+        width: 800px;
+        font-size: 20px;
+        line-height: 150%;
+    }
+
+    .neon {
+        padding-bottom: 35px;
+    }
+}
+
+
+@media all and (max-width:768px) {
+    .neon {
+        padding-bottom: 30px;
+    }
+
+    .neon-banner {
+        height: 402px;
+    }
+
+    .neon-banner__text {
+        font-size: 60px;
+        line-height: 120%;
+        top: 140px;
+    }
+
+    .neon__description {
+        padding-top: 60px;
+        width: 688px;
+        font-size: 16px;
+        line-height: 150%;
+    }
+}
+
+@media all and (max-width:420px) {
+    .neon {
+        padding-bottom: 15px;
+    }
+
+    .neon-banner {
+        height: 168px;
+    }
+
+    .neon-banner__text {
+        font-size: 30px;
+        line-height: 120%;
+        top: 65px;
+    }
+
+    .neon__description {
+        width: 280px;
+        padding-top: 30px;
+        font-size: 16px;
+        line-height: 150%;
+    }
 }

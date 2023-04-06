@@ -15,15 +15,20 @@
 </head>
 
 <body>
-
-    <header class="header">
+ <header class="header">
         <div class="container">
             <div class="header__block">
-                <a href="index.html"><img class="header__logo" src="img/logo.png" alt="logo"></a>
+                <div class="menu-line">
+                    <svg width="54" height="29" viewBox="0 0 54 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="54" height="5" rx="2" fill="#6C0287" />
+                        <rect y="12" width="54" height="5" rx="2" fill="#6C0287" />
+                        <rect y="24" width="31" height="5" rx="2" fill="#6C0287" />
+                    </svg></div>
+                <img class="header__logo" src="img/logo.png" alt="logo">
                 <nav class="header__navigator">
-                    <ul class="header__list">
+                    <ul class="header__list header__disable">
                         <li class="header__list-item">
-                            <a href="#another-room">Залы</a>
+                            <a href="index.html#rooms">Залы</a>
                         </li>
                         <li class="header__list-item">
                             <a href="index.html#about-us">О нас</a>
@@ -50,21 +55,21 @@
                     </a>
                 </button>
             </div>
-        </div>
+            </div>
     </header>
     <main>
         <section class="west">
             <div class="west-banner">
                 <p class="west-banner__text">Wild West</p>
             </div>
-            <div class="west-banner__descrip-block">
-                <p class="west-banner__description">Ох этот замечательный мир «Дикого Запада». Здесь вы сможете примерить на себя ковбойскую шляпу, кожаный жилет, ковбойские сапоги и даже сесть верхом на лошадь.
+            <div class="west__descrip-block">
+                <p class="west__description">Ох этот замечательный мир «Дикого Запада». Здесь вы сможете примерить на себя ковбойскую шляпу, кожаный жилет, ковбойские сапоги и даже сесть верхом на лошадь.
                     И не важно, вы будете одним из омерзительной восьмерки или отправитесь в путь освобождать Джанго. </p>
             </div>
         </section>
         <section class="room-describe">
             <div class="container">
-                <h3 class="room-describ__title">Что есть в комнате?</h3>
+                <h3 class="room-describe__title">Что есть в комнате?</h3>
                 <div class="room-describe__wrapper">
                     <img class="room-describe__img" src="./img/wild_west.jpg" alt="room-describe">
                     <div class="room-describe__text-block">
@@ -85,7 +90,7 @@
             </ul>
         </section>
     </main>
-    <footer>
+      <footer>
         <section class="contacts" id="contacts">
             <div class="container">
                 <h3 class="contacts__title">Контакты</h3>
@@ -94,10 +99,14 @@
                     <div class="contacts__wrapper">
                         <img class="contacts__icon-location" src="img/location.png" alt="location">
                         <p class="contacts__text">г. Москва, <br> Аквамарина, 16</p><br>
+                        <div class="contacts__phone-wrap">
                         <img class="contacts__icon" src="img/phone.png" alt="phone">
                         <a class="contacts__phone" href="tel:89509302893">8(950)930-28-93</a><br>
+                        </div>
+                        <div class="contacts__phone-wrap">
                         <img class="contacts__icon" src="img/envelope.png" alt="envelope">
                         <a class="contacts__mail" href="mailto:GameOver@gmail.com">GameOver@gmail.com</a><br>
+                        </div>
 
 
 
@@ -138,6 +147,7 @@
                                         </defs>
                                     </svg>
                                 </a>
+
                             </div>
                             <div class="contacts__social-item">
                                 <a href="#">
@@ -158,7 +168,7 @@
                         </div>
                     </div>
                     <div class="contacts__map">
-                        <img src="./img/map.png" alt="map">
+                        <img class="contacts__img" src="./img/map.png" alt="map">
                     </div>
                 </div>
                 <div class="contacts__copyright">

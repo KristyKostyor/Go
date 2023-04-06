@@ -121,10 +121,11 @@
         line-height: 28px;
     }
 
+
 }
 
 @media all and (max-width:768px) {
- 
+
 
     .menu-line {
         display: block;
@@ -134,10 +135,15 @@
         display: none;
     }
 
+    .header__btn-back {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
 }
 
 @media all and (max-width:420px) {
-  
+
 
     .header__button {
         display: none;
@@ -154,7 +160,8 @@
         position: relative;
         left: 120px;
     }
-    .header{
+
+    .header {
         padding: 20px 0;
     }
 }

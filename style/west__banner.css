@@ -22,12 +22,12 @@
 
 
 
-.west-banner__descrip-block {
+.west__descrip-block {
     display: flex;
     justify-content: center;
 }
 
-.west-banner__description {
+.west__description {
     padding-top: 100px;
     width: 1000px;
     font-weight: 700;
@@ -35,4 +35,75 @@
     line-height: 150%;
     text-align: center;
 
+}
+
+
+@media all and (max-width:1024px) {
+    .west-banner {
+        height: 534px;
+    }
+
+    .west-banner__text {
+        font-size: 90px;
+        line-height: 80px;
+        top: 200px;
+    }
+
+    .west__description {
+        padding-top: 70px;
+        width: 800px;
+        font-size: 20px;
+        line-height: 150%;
+    }
+
+    .west {
+        padding-bottom: 35px;
+    }
+}
+
+
+@media all and (max-width:768px) {
+    .west {
+        padding-bottom: 30px;
+    }
+
+    .west-banner {
+        height: 402px;
+    }
+
+    .west-banner__text {
+        font-size: 60px;
+        line-height: 120%;
+        top: 140px;
+    }
+
+    .west__description {
+        padding-top: 60px;
+        width: 688px;
+        font-size: 16px;
+        line-height: 150%;
+    }
+}
+
+@media all and (max-width:420px) {
+    .west {
+        padding-bottom: 15px;
+    }
+
+    .west-banner {
+        height: 168px;
+    }
+
+    .west-banner__text {
+        font-size: 30px;
+        line-height: 120%;
+        top: 65px;
+    }
+
+    .west__description {
+        width: 280px;
+        padding-top: 30px;
+        font-size: 16px;
+        line-height: 150%;
+    }
 }
