@@ -278,20 +278,21 @@
 
 @media all and (max-width:420px) {
     .banner__title {
-        font-size: 35px;
+        font-size: 45px;
         padding-bottom: 6px;
+        letter-spacing: -0.08em;
     }
 
     .banner__content::before {
         width: 161px;
         height: 179px;
         top: 20px;
-        left: 120px;
+        left: 186px;
     }
 
     .banner__text {
-        font-size: 10px;
-        line-height: 14px;
+        font-size: 14px;
+        line-height: 16px;
         padding-left: 10px;
     }
 
@@ -324,9 +325,9 @@
 
 
     .banner__button {
-        width: 117px;
-        height: 27px;
-        font-size: 10px;
+        width: 140px;
+        height: 30px;
+        font-size: 12px;
         line-height: 12px;
         border-radius: 4px;
 
@@ -341,7 +342,7 @@
     .banner__text-column_one {
 
         width: 60px;
-        
+
 
     }
 }

@@ -151,6 +151,8 @@
     .header__logo {
         width: 66px;
         height: 42px;
+        position: relative;
+        left: 120px;
     }
     .header{
         padding: 20px 0;
