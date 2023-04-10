@@ -11,7 +11,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .header__disable {
@@ -25,7 +24,6 @@
 }
 
 .header__list-item {
-
     font-size: 22px;
     line-height: 50px;
     text-transform: uppercase;
@@ -53,19 +51,16 @@
 .header__button:hover {
     background: var(--violet-color);
     border: 3px solid var(--violet-color);
-    transition: 2s;
-
+    transition: 1;
 }
 
 .header__button:active {
     background: #640AA3;
     border: 1px solid #000000;
-
 }
 
 .header__button:focus {
     background: var(--violet-color);
-
 }
 
 .header__back {
@@ -90,10 +85,7 @@
 }
 
 @media all and (max-width:1024px) {
-
-
     .header__list-item {
-
         font-size: 18px;
         line-height: 22px;
     }
@@ -120,13 +112,9 @@
         font-size: 22px;
         line-height: 28px;
     }
-
-
 }
 
 @media all and (max-width:768px) {
-
-
     .menu-line {
         display: block;
     }
@@ -139,12 +127,9 @@
         font-size: 16px;
         line-height: 28px;
     }
-
 }
 
 @media all and (max-width:420px) {
-
-
     .header__button {
         display: none;
     }

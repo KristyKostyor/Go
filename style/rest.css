@@ -12,13 +12,10 @@
     margin-bottom: 60px;
 }
 
-
-
 .rest__list {
     display: flex;
     gap: 20px;
     align-items: flex-start;
-
 }
 
 .rest__flex {
@@ -26,9 +23,6 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 40px;
-
-
-
 }
 
 .rest__item {
@@ -36,13 +30,9 @@
 }
 
 .rest__self {
-
     align-self: flex-end;
-
     margin: 60px 0;
 }
-
-
 
 .rest__img {
     width: 380px;
@@ -80,7 +70,6 @@
     .rest__img {
         width: 287px;
         height: 172px;
-
     }
 }
 
@@ -126,8 +115,6 @@
 }
 
 @media all and (max-width:420px) {
-
-
     .rest__title {
         font-size: 14px;
         line-height: 18px;

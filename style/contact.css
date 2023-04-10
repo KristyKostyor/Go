@@ -23,6 +23,7 @@
     font-size: 24px;
     line-height: 28px;
     margin-left: 60px;
+    cursor: pointer;
 }
 
 .contacts__text:hover {

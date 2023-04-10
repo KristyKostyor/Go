@@ -19,18 +19,15 @@
     gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
-
 }
 
 .rooms__item {
-
     font-style: normal;
     font-weight: 700;
     font-size: 70px;
     line-height: 80px;
     text-align: center;
     text-transform: uppercase;
-
 }
 
 .rooms__item__link {
@@ -38,33 +35,23 @@
     top: 150px;
 }
 
-
-
-
 .rooms__item_vibes {
-
     width: 580px;
     height: 349px;
     background-image: url('../img/80_vibes.jpg');
     background-position: center;
     background-size: cover;
-
 }
 
-
 .rooms__item_wars {
-
     width: 580px;
     height: 349px;
     background-image: url('../img/Star_wars.jpg');
     background-position: center;
     background-size: cover;
-
 }
 
-
 .rooms__item_west {
-
     width: 580px;
     height: 349px;
     background-image: url('../img/wild_west.jpg');
@@ -103,11 +90,9 @@
     .rooms__item__link {
         top: 100px;
     }
-
 }
 
 @media all and (max-width:768px) {
-
     .rooms__title {
         font-size: 24px;
         line-height: 36px;
@@ -129,9 +114,10 @@
         font-size: 40px;
         line-height: 50px;
     }
-.rooms__item__link{
-    top: 80px;
-}
+
+    .rooms__item__link {
+        top: 80px;
+    }
 }
 
 @media all and (max-width:420px) {}

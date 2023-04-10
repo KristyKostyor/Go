@@ -70,10 +70,8 @@
 }
 
 .banner__text-column-one {
-
     width: 166px;
     height: 174px;
-
 }
 
 .banner__text-column-two {
@@ -212,7 +210,6 @@
         height: 64px;
         font-size: 22px;
         line-height: 30px;
-
     }
 }
 
@@ -267,7 +264,6 @@
         height: 46px;
         font-size: 16px;
         line-height: 24px;
-
     }
 
     .banner__text-wrapper {
@@ -322,27 +318,20 @@
         min-height: 50px;
     }
 
-
-
     .banner__button {
         width: 140px;
         height: 30px;
         font-size: 12px;
         line-height: 12px;
         border-radius: 4px;
-
     }
 
     .banner__text-wrapper {
-
         gap: 20px;
         top: 10px;
     }
 
     .banner__text-column-one {
-
         width: 60px;
-
-
     }
 }

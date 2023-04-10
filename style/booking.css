@@ -90,7 +90,7 @@
     display: flex;
     flex-wrap: wrap;
     border: none;
-   
+
 }
 
 .booking-form__wrapper-device-time {
@@ -113,6 +113,7 @@
     font-size: 18px;
     line-height: 28px;
     color: #211E1E;
+    padding: 8px 12px;
 
 }
 
@@ -123,11 +124,13 @@
     font-size: 18px;
     line-height: 28px;
     color: #211E1E;
+    padding: 8px 12px;
 }
 
 .booking-form__input-count {
     width: 300px;
     height: 52px;
+    padding: 8px 12px;
     text-align: center;
 }
 

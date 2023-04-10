@@ -39,7 +39,8 @@
 
 }
 
-.faq__button {
+.faq__button,
+.faq__button-vio {
     position: relative;
     top: -10px;
     float: right;
@@ -51,43 +52,47 @@
     transition: background-color 200ms linear, color 200ms linear;
 }
 
-.faq__button::after {
+.faq__button::after,
+.faq__button-vio::after{
     content: "+";
     display: block;
     font-size: 28px;
 }
 
-.faq__list__item .faq__button {
+.faq__button {
     border-color: var(--violet-color);
     color: var(--violet-color);
 }
 
-.faq__list__item-violet .faq__button {
+.faq__button-vio {
     border-color: var(--main-color);
     color: var(--main-color);
 }
 
-.faq__list__item-violet:hover .faq__button {
+ .faq__button-vio:hover {
     background-color: var(--main-color);
     color: var(--violet-color);
 }
 
-.faq__list__item-violet .faq__button:active {
+
+.faq__button:active {
     background-color: transparent;
     color: var(--main-color);
 }
 
-.faq__list__item:hover .faq__button {
+.faq__button:hover {
     background-color: var(--violet-color);
     color: var(--main-color);
 }
 
-.faq__list__item .faq__button:active {
+
+ .faq__button:active {
     background-color: transparent;
     color: var(--violet-color);
 }
 
-.faq__button:active:after {
+.faq__button:active:after,
+.faq__button-vio:active::after {
     content: "―";
 }
 
