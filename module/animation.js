@@ -1,5 +1,5 @@
 let startTime;
-const duration = 300; // длительность анимации в миллисекундах
+const duration = 300; 
 const menu = document.querySelector(".header__list");
 
 function openMenu(timestamp) {
