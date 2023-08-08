@@ -14,7 +14,8 @@
 }
 
 .header__disable {
-    display: block;
+    display: none;
+    transition: max-height 0.3s ease-in-out;
 }
 
 .header__list {
@@ -84,6 +85,10 @@
     display: none;
 }
 
+.header__callmob {
+    display: none;
+}
+
 @media all and (max-width:1024px) {
     .header__list-item {
         font-size: 18px;
@@ -115,8 +120,149 @@
 }
 
 @media all and (max-width:768px) {
+    .modal {
+        display: none;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index: 1000;
+    }
+
+    .modal-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #440F51;
+        ;
+        padding: 150px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .modal-content h2,
+    .modal-content label,
+    .modal-content input,
+    .modal-content button {
+        margin-bottom: 20px;
+    }
+
+    .modal-content input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+
+    .label-input-wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .label-input-wrapper label {
+        margin-bottom: 5px;
+    }
+
+    .modal__title {
+        font-family: Arial;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    .modal__button {
+        width: 300px;
+        height: 60px;
+        background: var(--main-color);
+        border-radius: 10px;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 28px;
+        text-transform: uppercase;
+        color: var(--violet-color);
+        border: none;
+        box-shadow: 0px 0px 24px 18px rgba(255, 255, 255, 0.2);
+    }
+
+    .close-button {
+        position: absolute;
+        right: 10px;
+        top: 5px;
+        width: 10px;
+        height: 10px;
+        cursor: pointer;
+    }
+
+
     .menu-line {
         display: block;
+        z-index: 10001;
+    }
+
+    .header__logo {
+        width: 122px;
+        height: 66px;
+        z-index: 10001;
+    }
+
+    .header__button {
+        z-index: 10001;
+    }
+
+    .header__list {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding-top: 150px;
+        padding-bottom: 50px;
+        width: 100%;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #1B1A1B;
+    }
+
+    .header__enable {
+        z-index: 9999;
+    }
+
+    .header__block {
+        background-color: #1B1A1B;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+    }
+
+
+
+    .header__list.header__enable {
+        font-size: 1.5em;
+        display: flex;
+    }
+
+
+    .header__list.header__enable {
+        font-size: 1.5em;
+        display: flex;
+        /* Изменим значение display */
+    }
+
+    .header__list.header__disable {
+        display: none;
     }
 
     .header__disable {
@@ -130,9 +276,26 @@
 }
 
 @media all and (max-width:420px) {
+
+
     .header__button {
         display: none;
     }
+
+    .header__callmob {
+        display: block;
+        width: 184px;
+        height: 37px;
+        color: var(--main-color);
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 30px;
+        border: 3px solid #CD06FF;
+        border-radius: 10px;
+        background-color: #1B1A1B;
+        text-transform: uppercase;
+    }
+
 
     .menu-line svg {
         width: 30px;
@@ -148,5 +311,11 @@
 
     .header {
         padding: 20px 0;
+    }
+
+    .modal-content {
+
+        padding: 100px;
+
     }
 }

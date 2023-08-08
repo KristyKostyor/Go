@@ -22,11 +22,16 @@
           
             <div class="header__block">
                                         <div class="menu-line">
-                <svg width="54" height="29" viewBox="0 0 54 29" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="54" height="5" rx="2" fill="#6C0287"/>
-<rect y="12" width="54" height="5" rx="2" fill="#6C0287"/>
-<rect y="24" width="31" height="5" rx="2" fill="#6C0287"/>
-</svg></div>
+               <svg class="menu-icon" width="54" height="29" viewBox="0 0 54 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="54" height="5" rx="2" fill="#6C0287"/>
+        <rect y="12" width="54" height="5" rx="2" fill="#6C0287"/>
+        <rect y="24" width="31" height="5" rx="2" fill="#6C0287"/>
+    </svg>
+    <!-- SVG иконка крестика -->
+    <svg class="cross-icon" width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: none;">
+        <rect y="38.1838" width="54" height="5" rx="2" transform="rotate(-45 0 38.1838)" fill="#6C0287"/>
+        <rect x="3.53564" width="54" height="5" rx="2" transform="rotate(45 3.53564 0)" fill="#6C0287"/>
+    </svg></div>
                 <img class="header__logo" src="img/logo.png" alt="logo">
                 <nav class="header__navigator">
                     <ul class="header__list header__disable">
@@ -44,6 +49,9 @@
                         </li>
                         <li class="header__list-item">
                             <a href="#contacts">Контакты</a>
+                        </li>
+                        <li class="header__list-item">
+                            <button class="header__callmob">Заказать звонок</button>
                         </li>
                     </ul>
                 </nav>
@@ -398,7 +406,26 @@
             </div>
         </section>
     </footer>
+    <div class="modal" id="callModal">
+   <div class="modal-content">
+    <span class="close-button">&times;</span>
+    <h2 class="modal__title">Заказать звонок</h2>
+    
+    <div class="label-input-wrapper">
+        <label for="name">Имя</label>
+        <input type="text" name="name" id="name">
+    </div>
+    
+    <div class="label-input-wrapper">
+        <label for="tel">Телефон</label>
+        <input type="tel" name="tel" id="tel">
+    </div>
+    
+    <button class="modal__button">Позвоните мне</button>
+</div>
 
+</div>
+<script src="accardeon.js"></script>
 
 </body>
 
