@@ -89,6 +89,10 @@
     display: none;
 }
 
+.header__list.animating {
+    transition: none;
+}
+
 @media all and (max-width:1024px) {
     .header__list-item {
         font-size: 18px;
