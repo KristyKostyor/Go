@@ -46,18 +46,49 @@
     border-radius: 250px;
     background: radial-gradient(50% 50% at 50% 50%, rgba(196, 196, 196, 0) 0%, rgba(108, 2, 135, 0.5) 100%);
     top: 0px;
+    left: 440px;
 }
 
 .reviews__text {
-    max-width: 680px;
+
     font-size: 20px;
     line-height: 28px;
     padding-bottom: 150px;
+    text-align: center;
+
 }
 
 .reviews__clear {
     font-size: 20px;
     line-height: 28px;
+}
+
+.button-left {
+    position: absolute;
+    content: '';
+    width: 45px;
+    height: 45px;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: url('../img/left-btn.svg') center / contain no-repeat;
+    z-index: 2;
+    border: none;
+    cursor: pointer;
+}
+
+.button-right{
+    position: absolute;
+    content: '';
+    width: 45px;
+    height: 45px;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: url('../img/right-btn.svg') center / contain no-repeat;
+    z-index: 2;
+    border: none;
+    cursor: pointer;
 }
 
 /*
@@ -162,4 +193,3 @@
         padding: 0 0 30px 0;
     }
 }
-
